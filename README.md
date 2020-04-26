@@ -6,7 +6,7 @@ Project Team Members:
 - Firstname Lastname1, name1@ucsd.edu
 - Firstname Lastname2, name2@ucsd.edu
 - Firstname Lastname3, name3@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
+- Rakesh Senthilvelan, rsenthil@ucsd.edu
 - Praveen Nair, prnair@ucsd.edu
 
 ## Abstract

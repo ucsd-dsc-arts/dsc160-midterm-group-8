@@ -3,9 +3,9 @@
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
 Project Team Members: 
-- Firstname Lastname1, name1@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
+- Mizuki Kadowaki, mikadowa@ucsd.edu
+- Anurag Pamuru, anpamuru@ucsd.edu
+- Shutong Li, shl636@ucsd.edu
 - Rakesh Senthilvelan, rsenthil@ucsd.edu
 - Praveen Nair, prnair@ucsd.edu
 

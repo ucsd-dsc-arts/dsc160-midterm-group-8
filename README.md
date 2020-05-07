@@ -36,9 +36,13 @@ In order to conduct this analysis, we will use the Python package librosa, which
 
 This section will describe your data and its origins. Each item should contain a name of the data source, a link to the source, and any necessary background information such as:
 - What is your cultural data source? 
-- When was it made? 
-- Who created the works? 
-- Is it digital native, or is it some kind of scan, recording, photo, etc., of an analog form? 
+  The cultural data source we went with is a the top 2 hip-hop songs for each year from 1980 to 2020 as streamed on Spotify, a music streaming application. Alongside all of these songs, we added in songs from influential artists such as Kanye West, Jay-Z, 2Pac, and Travis Scott who did not show up on the Spotify data in order to further show differentiable features of different eras of music within the eras.
+- When was it made?
+  The dataset was made on May 1, 2020 by drawing from the Spotify API and manual research done on different highly influential artists in the genre. 
+- Who created the works?
+  The works were created by a wide variety of hip-hop artists who produced the music between 1980 and 2020.
+- Is it digital native, or is it some kind of scan, recording, photo, etc., of an analog form?
+  The music is all digital native: it has been recorded and released in the form. 
 
 ## Code
 

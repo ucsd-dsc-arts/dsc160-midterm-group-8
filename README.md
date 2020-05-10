@@ -60,13 +60,23 @@ Data acquisition and cleaning is handled by the feature_extraction.ipynb. This c
 
 ## Results
 
-(30 points) 
+(30 points)
 
-This section will contain links to documentation of your results. This can include figures, sound files, videos, bitmaps, as appropriate to your domain of analysis. Each result should include a brief textual description, and all should be listed below: 
+**Interactive versions of all charts are in /results/bokeh_plots.**
 
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- audio files (`.wav`, `.mp3`)
-- written text as `.pdf`
+The following is the result of using PCA dimensionality reduction to reduce our data to two dimensions. However, although there are outliers, there are no clear clusters or trends within the data.
+
+![PCA 2D](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/pca_one.PNG))
+
+This next plot uses PCA once again to reduce our data to one dimension, then plots that dimension against song year. We can see a slight association between the two, but the correlation is weak and we're unsure of what that association really indicates.
+
+![PCA vs. Year](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/pca_two.PNG)
+
+In order to determine some more usable insights, we compared the associations between all of the named features (the spectral features and Spotify's song attributes). This yields the following scatter matrix:
+
+![Scatter Matrix](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/scatter_matrix.png)
+
+Interactive plots discussing some of the more interesting associations are in **results/bokeh_plots**. Please run and look at this notebook -- it's actually where most of the actual results work is (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files).
 
 ## Discussion
 
@@ -90,7 +100,7 @@ Provide an account of individual members and their efforts/contributions to the 
 Any implementation details or notes we need to repeat your work. 
 - Additional libraries you are using for this project
   
-  Spotipy is used in this, which requires access to Spotify's API in order properly run the project. 
+  Spotipy is used in this, which requires access to Spotify's API in order properly run the project. You would also need to generate a Spotify API token in order to use the API -- we've cut ours out since it's private information, so the code/feature_extraction.ipynb notebook is not actually runnable right now. We also used bokeh for visualization, librosa for extracting audio features, sklearn for dimensionality reduction, and pandas for pretty much everything.
   
 - Does this code require other pip packages, software, etc?
 
@@ -104,3 +114,4 @@ References to any papers, techniques, repositories you used:
 - Papers
 - Repositories
 - Blog posts
+

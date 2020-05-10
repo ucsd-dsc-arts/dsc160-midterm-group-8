@@ -89,9 +89,13 @@ Provide an account of individual members and their efforts/contributions to the 
 
 Any implementation details or notes we need to repeat your work. 
 - Additional libraries you are using for this project
+  
   Spotipy is used in this, which requires access to Spotify's API in order properly run the project. 
+  
 - Does this code require other pip packages, software, etc?
+
   pip install spotipy --upgrade <- needed to download spotipy
+  
 - Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
 
 ## Reference

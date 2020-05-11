@@ -101,7 +101,9 @@ Since its inception, hip hop has become a borderless and universal cultural expe
 
 While our final results seemed to display no characteristics of similarity, distinct style patterns overtime or any clustering when taking into account solely aggregate sound features, we do find some interesting patterns when considering more high-level features. However, through a more traditional analysis of Hip-Hop, taking into account cultural and historical movements, there are many different styles and trends of Hip-Hop that can be easily categorized and sound completely different just by ear. 
 
+The cultural relevance of this is that it shows the diversity that exists within hip-hop, even within the relatively small subset we looked into within this project. There are numerous different subgenres of hip-hop that are represented within this dataset, and there are many more that exist that were not covered here like drill, crunk, and battle rap amongst others. It indicates that hip-hop is a genre that is incredibly diverse and a genre that is often not completely derivative of other things within that genre within the year. The type of analysis we did looking for clusters based on years might be more effective within each individual subgenre, but hip-hop as a whole is too diverse and unique.
 
+Our computational approach to this differs from a lot of computational approaches to the topic as it is focused a lot on the audio data of hip-hop, rather than the lyrics. There are numerous blog posts that look into the lyrics of hip-hop and run analysis based off of those, but we have not seen many that look into the audio features. While there are many who subjectively go into the details of aspects of hip-hop song like beats, samples, etc., we have seen few who go into the audio features such as MFCCs and chroma features. 
 
 
 
@@ -134,3 +136,11 @@ References to any papers, techniques, repositories you used:
 - Blog posts
 
 In addition to the lectures and exercises from this class that we used to direct the workflow of this project, we also utilized [Spotify's API documentation](https://developer.spotify.com/documentation/), [Bokeh documentation](https://docs.bokeh.org/en/latest/docs/reference.html), [Librosa documentation](https://librosa.github.io/librosa/), and [scikit-learn documentation](https://scikit-learn.org/stable/). We also couldn't have extracted the data without [youtube-dl](https://github.com/ytdl-org/youtube-dl).
+
+In doing research on how our work differs from others, we consulted the following projects and people:
+
+https://towardsdatascience.com/using-machine-learning-and-ai-to-understand-hip-hop-songs-evolution-e819c2a5172d
+
+https://bjc.edc.org/Aug2016/bjc-r/cur/programming/old-labs/python/python_data_intro.html?topic=nyc_bjc%2FNA-python.topic
+
+https://www.youtube.com/user/theneedledrop

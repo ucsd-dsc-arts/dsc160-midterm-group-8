@@ -121,15 +121,8 @@ Provide an account of individual members and their efforts/contributions to the 
 ## Technical Notes and Dependencies
 
 Any implementation details or notes we need to repeat your work. 
-- Additional libraries you are using for this project
   
-  Spotipy is used in this, which requires access to Spotify's API in order properly run the project. You would also need to generate a Spotify API token in order to use the API -- we've cut ours out since it's private information, so the code/feature_extraction.ipynb notebook is not actually runnable right now. We also used bokeh for visualization, librosa for extracting audio features, sklearn for dimensionality reduction, and pandas for pretty much everything.
-  
-- Does this code require other pip packages, software, etc?
-
-  pip install spotipy --upgrade <- needed to download spotipy
-  
-- Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
+Spotipy is used in this, which requires access to Spotify's API in order properly run the project. You would also need to generate a Spotify API token in order to use the API -- we've cut ours out since it's private information, so the code/feature_extraction.ipynb notebook is not actually runnable right now. We also used Bokeh for visualization, Librosa for extracting audio features, scikit-learn for dimensionality reduction, and pandas for pretty much everything. All code was run within Jupyter notebooks. 
 
 ## Reference
 
@@ -138,3 +131,4 @@ References to any papers, techniques, repositories you used:
 - Repositories
 - Blog posts
 
+In addition to the lectures and exercises from this class that we used to direct the workflow of this project, we also utilized [Spotify's API documentation](https://developer.spotify.com/documentation/), [Bokeh documentation](https://docs.bokeh.org/en/latest/docs/reference.html), [Librosa documentation](https://librosa.github.io/librosa/), and [scikit-learn documentation](https://scikit-learn.org/stable/). 

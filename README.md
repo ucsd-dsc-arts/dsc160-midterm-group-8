@@ -66,11 +66,11 @@ For analysis, in [music_PCA.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midte
 
 **Interactive versions of all charts are in /results/bokeh_plots.**
 
-The following is the result of using PCA dimensionality reduction to reduce our data to two dimensions. However, although there are outliers, there are no clear clusters or trends within the data.
+The following is the result of clustering the 1st and 2nd PCA dimension of our feature space. There is little apparent cluster among the points. 
 
-![PCA 2D](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/pca_one.PNG))
+![PCA 2D](results/KNN_cluster.PNG)
 
-This next plot uses PCA once again to reduce our data to one dimension, then plots that dimension against song year. We can see a slight association between the two, but the correlation is weak and we're unsure of what that association really indicates.
+This next plot uses PCA once again to reduce our data to one dimension, then plots that dimension against song year. We observe an association between the two. Subsequently, we verify the correlation with a correlation coefficient of 0.3583 and a p-value of 0.0003.  
 
 ![PCA vs. Year](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/pca_two.PNG)
 
@@ -122,7 +122,7 @@ Provide an account of individual members and their efforts/contributions to the 
 
 - Praveen: Created dataset from Spotify API, downloaded data, extracted features, and visualized in Bokeh.
 
-- Shutong: EDAm Dime reduciton, and clustering. 
+- Shutong: EDA, Dim reduciton, and clustering. 
 
 - Rakesh: Data, Code, Results, and parts of Discussion section
 

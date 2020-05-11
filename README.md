@@ -122,6 +122,8 @@ Provide an account of individual members and their efforts/contributions to the 
 
 - Praveen: Created dataset from Spotify API, downloaded data, extracted features, and visualized in Bokeh.
 
+- Rakesh: Data, Code, Results, and parts of Discussion section
+
 ## Technical Notes and Dependencies
 
 Any implementation details or notes we need to repeat your work. 

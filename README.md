@@ -122,7 +122,10 @@ Provide an account of individual members and their efforts/contributions to the 
 
 - Praveen: Created dataset from Spotify API, downloaded data, extracted features, and visualized in Bokeh.
 
+- Shutong: EDAm Dime reduciton, and clustering. 
+
 - Rakesh: Data, Code, Results, and parts of Discussion section
+
 
 ## Technical Notes and Dependencies
 

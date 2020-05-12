@@ -66,11 +66,11 @@ For analysis, in [music_PCA.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midte
 
 **Interactive versions of all charts are in /results/bokeh_plots.**
 
-The following is the result of clustering the 1st and 2nd PCA dimension of our feature space. There is little apparent cluster among the points. 
+The following is the result of clustering the 1st and 2nd PCA dimension of our feature space. The clusters, unsurprisingly, are not very  distinct, although we can see a clear central mass and variation in both dimensions.
 
 ![PCA 2D](results/KNN_cluster.PNG)
 
-This next plot uses PCA once again to reduce our data to one dimension, then plots that dimension against song year. We observe an association between the two. Subsequently, we verify the correlation with a correlation coefficient of 0.3583 and a p-value of 0.0003.  
+This next plot uses PCA once again to reduce our data to one dimension, then plots that dimension against song year. We observe an association between the two. Subsequently, we verify the correlation with r = 0.232357, with a p-value of 0.022721.  
 
 ![PCA vs. Year](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/pca_two.PNG)
 
@@ -78,7 +78,7 @@ In order to determine some more usable insights, we compared the associations be
 
 ![Scatter Matrix](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/scatter_matrix.png)
 
-Interactive plots discussing some of the more interesting associations are in **results/bokeh_plots**. Please run and look at this notebook -- it's actually where most of the actual results work is (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files).
+Interactive plots discussing some of the more interesting associations are in **results/bokeh_plots**. Please run and look at this notebook -- it's actually where most of the actual results work is (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files), containing analysis of some of the more interesting associations between the named features.
 
 ## Discussion
 

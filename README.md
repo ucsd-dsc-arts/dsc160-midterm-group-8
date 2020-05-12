@@ -64,7 +64,7 @@ For analysis, in [music_PCA.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midte
 
 (30 points)
 
-**Interactive versions of all charts are in /code/bokeh_plots.**
+**Interactive versions of all charts are in [/code/bokeh_plots](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/bokeh_plots.ipynb).**
 
 The following is the result of clustering the 1st and 2nd PCA dimension of our feature space. The clusters, unsurprisingly, are not very  distinct, although we can see a clear central mass and variation in both dimensions.
 
@@ -78,7 +78,7 @@ In order to determine some more usable insights, we compared the associations be
 
 ![Scatter Matrix](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/scatter_matrix.png)
 
-Interactive plots discussing some of the more interesting associations are in **code/bokeh_plots**. Please run and look at this notebook -- it's actually where most of the actual results work is (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files), containing analysis of some of the more interesting associations between the named features.
+Interactive plots discussing some of the more interesting associations are in **[code/bokeh_plots](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/bokeh_plots.ipynb)**. Please run and look at this notebook -- it's actually where most of the actual results work is (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files), containing analysis of some of the more interesting associations between the named features.
 
 ## Discussion
 

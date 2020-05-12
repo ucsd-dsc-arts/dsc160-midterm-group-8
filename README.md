@@ -1,4 +1,4 @@
-# A Data Science Look into Hip-Hop from 1980-2020
+# A Data Science Look into Hip-Hop from 1980 to 2020
 
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 

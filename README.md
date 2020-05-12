@@ -105,6 +105,8 @@ The cultural relevance of this is that it shows the diversity that exists within
 
 Our computational approach to this differs from a lot of computational approaches to the topic as it is focused a lot on the audio data of hip-hop, rather than the lyrics. There are numerous blog posts that look into the lyrics of hip-hop and run analysis based off of those, but we have not seen many that look into the audio features. While there are many who subjectively go into the details of aspects of hip-hop song like beats, samples, etc., we have seen few who go into the audio features such as MFCCs and chroma features. 
 
+We believe in the case of this analysis, original artists and musicians would most likely understand the results of this type of analysis as it indicates a diversity amongst the different songs released within each year. We do not believe that this data would change or inform their practice in any way as a result. For future expansions of this work, it would be interesting to look into the different subgenres as mentioned before and see if any meaningful relationships can be found within them. For example, could there be noticeable trends in trap music? How did drill evolve over the years? How does a specific artist develop their sound throughout the different eras in their discography? These types of questions and more can be looked into for further research into this general topic. The possibilities are endless.
+
 
 
 The first paragraph should be a short summary describing your results.

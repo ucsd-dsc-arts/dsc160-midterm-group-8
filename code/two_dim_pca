@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.2.min.js" integrity="sha384-ufR9RFnRs6lniiaFvtJziE0YeidtAgBRH6ux2oUItHw5WTvE1zuk9uzhUU/FJXDp" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="59da38c3-5bde-4a8d-9c70-2f57d0904402" data-root-id="1759"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1983">
+          {"794c2691-d510-4e5e-894f-0890aefc0464":{"roots":{"references":[{"attributes":{"below":[{"id":"1770"}],"center":[{"id":"1773"},{"id":"1777"}],"left":[{"id":"1774"}],"renderers":[{"id":"1797"}],"title":{"id":"1760"},"toolbar":{"id":"1786"},"x_range":{"id":"1762"},"x_scale":{"id":"1766"},"y_range":{"id":"1764"},"y_scale":{"id":"1768"}},"id":"1759","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"1770"},"ticker":null},"id":"1773","type":"Grid"},{"attributes":{"formatter":{"id":"1834"},"ticker":{"id":"1775"}},"id":"1774","type":"LinearAxis"},{"attributes":{},"id":"1775","type":"BasicTicker"},{"attributes":{"axis":{"id":"1774"},"dimension":1,"ticker":null},"id":"1777","type":"Grid"},{"attributes":{},"id":"1783","type":"HelpTool"},{"attributes":{"callback":null,"tooltips":[["(x,y)","($x, $y)"],["title","@title"],["artist","@artist"],["year","@year"]]},"id":"1785","type":"HoverTool"},{"attributes":{},"id":"1779","type":"WheelZoomTool"},{"attributes":{},"id":"1782","type":"ResetTool"},{"attributes":{"overlay":{"id":"1784"}},"id":"1780","type":"BoxZoomTool"},{"attributes":{},"id":"1781","type":"SaveTool"},{"attributes":{},"id":"1834","type":"BasicTickFormatter"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1795","type":"Circle"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1784","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":5},"x":{"field":"x"},"y":{"field":"y"}},"id":"1796","type":"Circle"},{"attributes":{"data_source":{"id":"1758"},"glyph":{"id":"1795"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1796"},"selection_glyph":null,"view":{"id":"1798"}},"id":"1797","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1778"},{"id":"1779"},{"id":"1780"},{"id":"1781"},{"id":"1782"},{"id":"1783"},{"id":"1785"}]},"id":"1786","type":"Toolbar"},{"attributes":{},"id":"1837","type":"Selection"},{"attributes":{"source":{"id":"1758"}},"id":"1798","type":"CDSView"},{"attributes":{"data":{"artist":["The Sugarhill Gang","Kurtis Blow","The Sugarhill Gang","The Sugarhill Gang","Afrika Bambaataa","Grandmaster Flash &amp; The Furious Five","Jimmy Spicer","Dimples D.","Newcleus","Run\u2013D.M.C.","Run-D.M.C.","LL Cool J","Run\u2013D.M.C.","Beastie Boys","Eazy-E","Eric B. &amp; Rakim","N.W.A.","N.W.A.","Young MC","Beastie Boys","A Tribe Called Quest","MC Hammer","Geto Boys","A Tribe Called Quest","Ice Cube","House Of Pain","Wu-Tang Clan","Ice Cube","The Notorious B.I.G.","The Notorious B.I.G.","Mobb Deep","Coolio","Nas","Blackstreet","The Notorious B.I.G.","The Notorious B.I.G.","Beastie Boys","Ms. Lauryn Hill","The Roots","Dr. Dre","OutKast","Eminem","Gorillaz","Fat Joe","Eminem","Eminem","OutKast","50 Cent","Usher","Eminem","Eminem","Gorillaz","Too $hort","Tech N9ne","T-Pain","DMX","Soulja Boy","T.I.","Kid Cudi","Kid Cudi","Eminem","Waka Flocka Flame","J. Cole","Drake","Meek Mill","Kendrick Lamar","Childish Gambino","A$AP Rocky","J. Cole","J. Cole","Rae Sremmurd","Big Sean","Low Life","Frank Ocean","XXXTENTACION","XXXTENTACION","XXXTENTACION","Meek Mill","DaBaby","Mustard","Drake","Jack Harlow","Kanye West","2Pac","2Pac","JAY-Z","JAY-Z","Public Enemy","Kanye West","Lil Pump","Kendrick Lamar","JAY-Z","Dr. Dre","Lil Nas X","Travis Scott","Pete Rock"],"title":["Rapper's Delight","The Breaks","Apache","8th Wonder","Planet Rock","The Message (feat. Melle Mel &amp; Duke Bootee)","Money Dollar Bill Y'all","Sucker D.J.'s (I Will Survive)","Jam On It","It's Like That","King of Rock","Rock The Bells","It's Tricky","No Sleep Till Brooklyn","Boyz-N-The-Hood","Paid In Full","Straight Outta Compton","Fuck Tha Police","Bust A Move","Shake Your Rump","Can I Kick It?","U Can't Touch This","Mind Playing Tricks on Me","Check the Rhime","It Was A Good Day","Jump Around","C.R.E.A.M.","You Know How We Do It - Remastered","Juicy - 2005 Remaster","Big Poppa - 2005 Remaster","Shook Ones, Pt. II","Gangsta's Paradise","If I Ruled the World (Imagine That)","No Diggity","Hypnotize - 2014 Remaster","Mo Money Mo Problems (feat. Puff Daddy &amp; Mase) - 2014 Remaster","Intergalactic - Remastered","Doo Wop (That Thing)","You Got Me","Still D.R.E.","Ms. Jackson","The Real Slim Shady","Clint Eastwood","What's Luv? (feat. Ja-Rule &amp; Ashanti)","'Till I Collapse","Without Me","Hey Ya!","In Da Club","Yeah! (feat. Lil Jon &amp; Ludacris)","Mockingbird","Lose Yourself - From \"8 Mile\" Soundtrack","Feel Good Inc.","Blow the Whistle","Caribou Lou","Buy U a Drank (Shawty Snappin') (feat. Yung Joc)","X Gon' Give It To Ya","Kiss Me Thru The Phone","Whatever You Like","Day 'N' Nite (nightmare)","Pursuit Of Happiness (Nightmare)","Love The Way You Lie","No Hands (feat. Roscoe Dash &amp; Wale)","Work Out","Marvins Room","Dreams and Nightmares","Money Trees","3005","F**kin' Problems (feat. Drake, 2 Chainz &amp; Kendrick Lamar)","No Role Modelz","Wet Dreamz","Come Get Her","I Don't Fuck With You","Low Life","Nights","Jocelyn Flores","Fuck Love (feat. Trippie Redd)","SAD!","Going Bad (feat. Drake)","BOP","Ballin' (with Roddy Ricch)","Toosie Slide","WHATS POPPIN","All of the Lights","Ambitionz Az a Ridah","California Love","Dead Presidents II","Empire State of Mind","Fight the Power","Gold Digger","Gucci Gang","HUMBLE.","Ni**as in Paris","Nuthin' But a G Thang","Old Town Road","SICKO MODE","They Reminisce Over You (T.R.O.Y)"],"x":[-0.8223999540098907,0.8153131949162089,3.0448551948891023,-5.514597817618822,15.315926339613345,-11.410994463880941,-12.629375392548512,-4.001663931463106,4.8130410103610695,9.160320253838433,-13.76052459811461,-13.578873141895963,-15.009043050899807,15.786913898933582,-24.344813010025593,-13.007072404957803,-9.189768868696664,-13.350422801000676,4.961709832551171,-8.935502377954942,-15.339737786072758,21.10456964460144,-6.056498663628135,-18.033961343388263,-15.610612053326035,-17.4136630723614,-10.259406886020217,-5.065250324274416,-29.621920685409652,-19.15840435206907,68.97322158535607,-15.923456386632733,-27.562649321220018,-32.03875334182035,-18.087297966580888,-18.109563935482665,-23.371864087461667,-24.713061196556502,-24.700571939265703,-18.032667917444574,-7.460123218506809,-6.043991648449622,-12.081075363990571,-20.47846466598495,-18.5214971540141,-30.97830256444265,-17.028660894152427,-7.442788156406213,-18.062871174109063,55.95478084508703,0.2739201422162137,59.52510673524033,-21.89049586302087,-32.38692205003457,-6.978899831368409,-27.901038819681542,26.565752673338732,-19.048577914299454,59.45240889130809,66.17752205668863,-12.034279545520443,-32.02204675209395,-16.92277607321809,38.0334545373276,38.07189496294271,26.000787955963048,3.2760022275926177,61.61065746083332,30.178949310006676,19.53732717567514,-24.99335112366972,28.037850877172644,-18.928278743111665,-0.546599839726372,-32.215983030604654,-40.00342671323402,-15.966949053776416,54.09299734157405,-11.981139851821611,63.46347840040581,73.0763163265658,-13.983572434752963,-22.189843924078403,32.043620667512656,19.0160739081797,7.868928895012157,38.08564532101071,21.952833954410487,-26.019943523854757,-36.932782554454604,43.03209748934563,-15.000066862232014,14.751306141702152,24.027646329382392,33.04726515967619,-30.43135432453839],"y":[6.892138012391627,5.302621267834695,-0.5845384503345608,0.654857680965172,3.1667653557757047,3.612146190861306,2.3308411434694065,2.504924676593182,-0.2983913810832527,-1.5182250368341674,-3.603159372787605,7.300563506095398,1.5221097228381195,7.230239984491977,3.273850096013675,3.217666571319903,2.476013092761346,1.995042931510764,1.176537459147558,3.655527818092701,-1.2310711138839696,6.852481286151379,6.777491259913686,4.154167905435508,8.045791772743526,1.7310749284490372,3.7642481852369225,-0.294644420455503,-2.4415806985524373,2.9356544064721586,3.3826730009721735,-3.3583690835239532,-1.0052953324403238,2.399059224137454,0.6408562119235816,0.2012719125201698,-3.816533820946392,-0.47369883233798,1.1776574337338768,-3.2898489139065688,-2.9548288830054563,-0.5783596354477047,0.9704395610122994,-4.513835088570707,-4.7209397988882875,0.7028907659427832,-1.7117706742800174,-2.8780184807819373,-3.109596185532002,2.0535111866989255,-4.089923943141991,-2.9139839219170263,-4.988377871507603,-5.07269129690977,-3.066103642601833,-3.289559483247127,-0.5561249618379699,-1.5580842234979067,-1.6478623090721658,-3.7273300410524723,-0.4861767310163958,0.38689926005259756,-3.866383050862376,-2.714651320604675,-0.7154330456277904,-1.075509555975565,0.25308933291803976,-5.467375338586355,-4.5273026735377435,0.08529268300424005,-3.059264331929975,-2.2401738329560827,0.4973274941454117,9.188441251956494,-6.575688016036471,0.0603625665378955,0.3750824142182363,0.1340784248671547,0.4865913129400181,1.4217078065684043,-0.8922693718419971,-1.6863418901829803,0.8217683505284907,0.945182094200983,2.203609372273465,-0.9026454126373314,1.9798883530823446,0.8486579952776224,-2.2095740100453134,-2.4244693657621537,-2.6371215835700714,-1.7184857771335291,-4.25477385473855,-2.269085127530842,-0.27866575757792306,1.5050436824554205],"year":[1980,1980,1981,1981,1982,1982,1983,1983,1984,1984,1985,1985,1986,1986,1987,1987,1988,1988,1989,1989,1990,1990,1991,1991,1992,1992,1993,1993,1994,1994,1995,1995,1996,1996,1997,1997,1998,1998,1999,1999,2000,2000,2001,2001,2002,2002,2003,2003,2004,2004,2005,2005,2006,2006,2007,2007,2008,2008,2009,2009,2010,2010,2011,2011,2012,2012,2013,2013,2014,2014,2015,2015,2016,2016,2017,2017,2018,2018,2019,2019,2020,2020,2010,1996,1998,1996,2009,1990,2005,2017,2017,2011,1992,2019,2018,1992]},"selected":{"id":"1837"},"selection_policy":{"id":"1838"}},"id":"1758","type":"ColumnDataSource"},{"attributes":{},"id":"1771","type":"BasicTicker"},{"attributes":{},"id":"1778","type":"PanTool"},{"attributes":{"text":"2-D PCA Results"},"id":"1760","type":"Title"},{"attributes":{},"id":"1762","type":"DataRange1d"},{"attributes":{},"id":"1832","type":"BasicTickFormatter"},{"attributes":{},"id":"1764","type":"DataRange1d"},{"attributes":{"formatter":{"id":"1832"},"ticker":{"id":"1771"}},"id":"1770","type":"LinearAxis"},{"attributes":{},"id":"1838","type":"UnionRenderers"},{"attributes":{},"id":"1768","type":"LinearScale"},{"attributes":{},"id":"1766","type":"LinearScale"}],"root_ids":["1759"]},"title":"Bokeh Application","version":"2.0.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1983').textContent;
+                  var render_items = [{"docid":"794c2691-d510-4e5e-894f-0890aefc0464","root_ids":["1759"],"roots":{"1759":"59da38c3-5bde-4a8d-9c70-2f57d0904402"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

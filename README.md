@@ -58,13 +58,13 @@ Link each of your notebooks or .py files within this section, and provide a brie
 
 Data acquisition and cleaning is handled by the [feature_extraction.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/feature_extraction.ipynb). This code first utilizes Spotify's API in order to obtain streaming data on hip-hop songs released between 1980 and 2020. *This notebook isn't runnable* because it requires use of Spotify's API, as well as the local song data downloaded earlier. Using the JSON data, it is formatted into a Pandas Dataframe. The first cleaning step was to replace any duplicate songs. Then, we needed to replace any songs that were not hip-hop, as Spotify tended to mix in R&B and funk songs into the mix as well, with the 3rd most popular song in the genre from that year. To further develop the dataset, we added in songs that were very representative of hip-hop in their years but did not make the Spotify list: songs by artists such as Kendrick Lamar, Kanye West, Jay-Z, 2Pac, Dr. Dre, Travis Scott, Lil Pump, Lil Nas X, and Pete Rock. Using Spotify's built-in API, we then extracted audio features with the purpose of augmenting future features. From here, we started matching audio files with their respective entries in the dataset then created a function to get features such as MFCCs, chroma features, zero crossing rate, spectral bandwidth, spectral centroid, and spectral rolloff. Now, we had the dataset we needed to move forward.  
 
-For analysis, in [music_PCA.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/music_PCA.ipynb), we worked to look and see if there were any clusters, trends, or associations within the data. The first step taken was to use PCA dimensionality reduction to reduce the data to two dimensions. This was then graphed in order to generate the results that are discussed later on. Next, we used PCA again to reduce the data down further to one dimension that plots against song year to see if any associations could be related to the year of the song's release. Finally, in [results/bokeh_plots.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/results/bokeh_plots.ipynb), we plotted the associations between the features we extracted from the songs using librosa tools as well as those given to us by Spotify's API. In this case, we developed a scatter matrix to display this. The results are discussed in the next section.
+For analysis, in [music_PCA.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/music_PCA.ipynb), we worked to look and see if there were any clusters, trends, or associations within the data. The first step taken was to use PCA dimensionality reduction to reduce the data to two dimensions. This was then graphed in order to generate the results that are discussed later on. Next, we used PCA again to reduce the data down further to one dimension that plots against song year to see if any associations could be related to the year of the song's release. Finally, in [code/bokeh_plots.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/bokeh_plots.ipynb), we plotted the associations between the features we extracted from the songs using librosa tools as well as those given to us by Spotify's API. In this case, we developed a scatter matrix to display this. The results are discussed in the next section.
 
 ## Results
 
 (30 points)
 
-**Interactive versions of all charts are in /results/bokeh_plots.**
+**Interactive versions of all charts are in /code/bokeh_plots.**
 
 The following is the result of clustering the 1st and 2nd PCA dimension of our feature space. The clusters, unsurprisingly, are not very  distinct, although we can see a clear central mass and variation in both dimensions.
 
@@ -78,7 +78,7 @@ In order to determine some more usable insights, we compared the associations be
 
 ![Scatter Matrix](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/scatter_matrix.png)
 
-Interactive plots discussing some of the more interesting associations are in **results/bokeh_plots**. Please run and look at this notebook -- it's actually where most of the actual results work is (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files), containing analysis of some of the more interesting associations between the named features.
+Interactive plots discussing some of the more interesting associations are in **code/bokeh_plots**. Please run and look at this notebook -- it's actually where most of the actual results work is (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files), containing analysis of some of the more interesting associations between the named features.
 
 ## Discussion
 

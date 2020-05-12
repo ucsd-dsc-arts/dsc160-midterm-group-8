@@ -86,19 +86,6 @@ Interactive plots discussing some of the more interesting associations are in **
 
 As a first step to visualize the music from our dataset, we used the bokeh library for all of the named features (in other words, everything except for the MFCC and chroma features.)
 
-This is a culturally relevant analysis of the evolution of Hip Hop. In the 1960s, New York was affected by the white flight and a decline in industry and commerce and in the 1970s, New York City entered a fiscal crisis. The emergence of early hip hop artists like Afrika Bambaataa and the Sugarhill Gang led to the birth of an East Coast-centric sound in the late 1970s. With limited infrastructure, Hip Hop emerged as music that people could dance to and have fun as an escape from daily struggles. This is reflected in the highly danceable, loud, and simple lyrics. 
-
-Example: Beastie Boys - “Fight For Your Right”
-https://www.youtube.com/watch?v=eBShN8qT4lk
-
-As Hip Hop entered the mainstream, DJs developed many different techniques from break beating, sampling, chopping, rap-skit and remixing, diverging their styles to involving jazz as well. Eric B. and Rakim revolutionized rap by using Hip-Hop as a way of expressing his political activism through calm rapping. Hip Hop became less about partying and dancing but more about self expression and often, politically charged. 
-
-Eric B. & Rakim - “Paid in Full”
-https://www.youtube.com/watch?v=zVPZX7MPQIw
-
-As Hip Hop gained popularity and spread to South Central LA, there was a rivalry between rappers of the east and the west coast. With rappers such as Snoop Dogg, Easy E, Ice Cube, and, most famously, 2Pac playing into a budding rivalry between the East’s distinct flow and the West’s preferred “gangsta rap”. Hip-Hop styles evolved separately in the East and West. Although these two were the first major divide, countless sub-movements, such as Mos Def and Talib Kweli’s “Conscious Rap”,  Black Street’s “new jack swing”, Afrocentrism, Native Tongues, constantly redefined what it meant to be a hip hop artist. Artists like Puff Daddy, Biggie Smalls, and Eminem brought hip-hop into the norm in the late 90s with increased presence in the 2000s.
-Since its inception, hip hop has become a borderless and universal cultural experience as a form of celebration, protest, and culture. In its journey from Harlem to the globe at large, we will analyze several key artists through hip hop’s many eras. Whether it be the aforementioned East vs. West divide, the eclectic beats and flow of the 90s, or the sample heavy tracks of contemporary artists like Drake and Kanye West. 
-
 While our final results seemed to display no characteristics of similarity, distinct style patterns overtime or any clustering when taking into account solely aggregate sound features, we do find some interesting patterns when considering more high-level features. However, through a more traditional analysis of Hip-Hop, taking into account cultural and historical movements, there are many different styles and trends of Hip-Hop that can be easily categorized and sound completely different just by ear. 
 
 Our computational approach to this differs from a lot of computational approaches to the topic as it is focused a lot on the audio data of hip-hop, rather than the lyrics. There are numerous blog posts that look into the lyrics of hip-hop and run analysis based off of those, but we have not seen many that look into the audio features. While there are many who subjectively go into the details of aspects of hip-hop song like beats, samples, etc., we have seen few who go into the audio features such as MFCCs and chroma features. There are, obviously, reasons for this. Hip hop is a mostly vocal art form, which means that any audio analysis is bound to be relatively messy, with fewer clear periodic and tonal differences than, say, classical music. While this sort of audio analysis is, to be sure, noninclusive of lyrics, the most important part of hip-hop, there are just as many musical changes in the genre over the measured period of time to make such an analysis worthwhile.
@@ -106,16 +93,6 @@ This analysis is culturally relevant in its representation of the diversity that
 
 We believe in the case of this analysis, original artists and musicians would most likely understand the results of this type of analysis as it indicates a diversity amongst the different songs released within each year. We do not believe that this data would change or inform their practice in any way as a result. This analysis could be broadened in the future with a larger dataset -- we only looked at a handful of songs, with no specific analysis based on any subgenres, cultural contexts, or regional origins. Adding these subjective data points into the analysis, as well as broadening the database to make it representative of the immense diversity of hip-hop, could lead to some more meaningful results, althouh the problems we listed above still remain. It would additionally be interesting to look into the different subgenres as mentioned before and see if any meaningful relationships can be found within them. For example, could there be noticeable trends in trap music? How did drill evolve over the years? How does a specific artist develop their sound throughout the different eras in their discography? These types of questions and more can be looked into for further research into this general topic. The possibilities are endless.
 
-
-
-The first paragraph should be a short summary describing your results.
-
-The subsequent paragraphs could address questions including:
-- Why is this culturally relevant?
-- How does your computational approach differ from the traditional art historical, musicological, manuel/subjective approach to analyzing your cultural subject? 
-- How do you think the original artists/musicians would respond to this type of analysis? Would it change/inform their practice in some way?
-- How do your results relate to broader social, cultural, economic political, etc., issues? 
-- In what future directions could you expand this work?
 
 ## Team Roles
 
@@ -126,6 +103,10 @@ Provide an account of individual members and their efforts/contributions to the 
 - Shutong: EDA, Dim reduciton, and clustering. 
 
 - Rakesh: Data, Code, Results, and parts of Discussion section
+
+- Mizuki: culture analysis, write up, research
+
+- Anurag: discussion, write up, data
 
 
 ## Technical Notes and Dependencies

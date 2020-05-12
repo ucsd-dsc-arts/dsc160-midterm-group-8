@@ -78,7 +78,23 @@ In order to determine some more usable insights, we compared the associations be
 
 ![Scatter Matrix](https://raw.githubusercontent.com/ucsd-dsc-arts/dsc160-midterm-group-8/master/results/scatter_matrix.png)
 
-Interactive plots discussing some of the more interesting associations are in **[code/bokeh_plots](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/bokeh_plots.ipynb)**. Please run and look at this notebook -- it's actually where most of the actual results work is (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files), containing analysis of some of the more interesting associations between the named features.
+Here, we plot the progression of Spotify's loudness variable (measured in decibels) over time. We can see that loudness rises until it peaks in the 2000s, then begins to fall in the 2010s. This is consistent not only with popular beliefs about 2000s hip-hop, but also with the progression of the [loudness war](https://en.wikipedia.org/wiki/Loudness_war#2010s), a process whereby music recordings have consistently gotten louder over time, peaking in the mid-2000s. The outlier towards the bottom, by the way, is the Drake song "Marvins Room," which, to be honest, isn't really a hip-hop song, although Spotify tags it that way.
+
+![Loudness over Time](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/results/year_loudness.png)
+
+Here, we plot the progression of Spotify's tempo variable (measured in beats per minute) over time. We can see that the variation in tempo in popular music has increased drastically in the last decade, with an increasing number of hit songs using much faster beats. Once again, this is consistent with popular belief about older hip-hop, which tended to be more uniform and structured than many hip-hop tracks today. (Think about the standard cadence and rhythm in early hip-hop hits such as Sugarhill Gang's "Rapper's Delight" or Grandmaster Flash's "The Message.")
+
+![Tempo over Time](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/results/year_tempo.png)
+
+Here, we plot the progression of zero crossing rate, calculated with librosa, over time. We can see that zero crossing rate has tended to decrease over time. Zero crossing rate tends to correlate with sounds that are percussive, such as drums. This could be the consequence of an increasing diversity of beats being used as hip-hop developed, going from the more traditional beats found in early-80's tracks like "It's Tricky" by Run-D.M.C to the vocal samples and non-percussive instruments that are used more today. The highest zero-crossing rate is found with the Beastie Boys' "No Sleep Till Brooklyn," which uses a very intense guitar and drum-based beat.
+
+![Zero Crossing Rate over Time](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/results/year_zcr.png)
+
+Here, we plot the progression of spectral centroid, calculated with librosa, over time. There is a moderate negative relationship between time and centroid, indicating that the pitch of music has decreased, to some degree, over the last 40 years. Although this could be due to many factors, one could be the decreasing influence of funk (which features lots of high-pitched synth and electric guitar) on hip-hop. 
+
+![Zero Crossing Rate over Time](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/results/year_centroid.png)
+
+Once again, interactive versions of all of these plots are available at **[code/bokeh_plots](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/bokeh_plots.ipynb)**. Please run and look at this notebook -- it's a lot more interesting than any of these pictures (bokeh plots aren't embeddable in this readme or in the Github view of .ipynb files), containing analysis of some of the more interesting associations between the named features.
 
 ## Discussion
 

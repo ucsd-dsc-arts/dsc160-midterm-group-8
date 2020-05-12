@@ -40,11 +40,12 @@ For analysis, in [music_PCA.ipynb](https://github.com/ucsd-dsc-arts/dsc160-midte
 
 **Interactive versions of all charts are in [/code/bokeh_plots](https://github.com/ucsd-dsc-arts/dsc160-midterm-group-8/blob/master/code/bokeh_plots.ipynb).**
 
-The following is the result of clustering the 1st and 2nd PCA dimension of our feature space. We set the number of clusters to 4 to represent the 4 different decades that the musics are from. The clusters, unsurprisingly, are not very  distinct, although we can see a clear central mass and variation in both dimensions (more distinct in dim1 than dim2).  
+The following is the result of clustering the 1st and 2nd PCA dimension of our feature space. We set the number of clusters to 4 to represent the 4 different decades that the songs are from. The clusters, unsurprisingly, are not very  distinct, although we can see a clear central mass and variation in both dimensions (more distinct in dim1 than dim2).  
 
 ![PCA 2D](results/KNN_cluster.PNG)
 
-To compare the members of the clusters against the year they are published, we can see that cluster 2 and 3 has a seemingly higher exclusivity for musics from a certain time period (00-20s or 80-00s). The other two clusters have relatively higher variability in representing musics from different time period. 
+When we compare the members of the clusters against the year they are published, we can see that cluster 2 and 3 has a seemingly higher exclusivity for songs from a certain time period (00-20s or 80-00s). The other two clusters have relatively higher variability in time periods.
+
 ![pca dim1 vs year](results/cluster_vs_year.PNG)
 
 This next plot uses PCA once again to reduce our data to one dimension, then plots that dimension against song year. We observe an association between the two. Subsequently, we verify the correlation with r = 0.232357, with a p-value of 0.022721.  
